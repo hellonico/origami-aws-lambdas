@@ -1,0 +1,1 @@
+aws lambda invoke --function-name lando --payload '["Nico"]' lando.log
