@@ -1,1 +1,1 @@
-aws lambda invoke --function-name lando --payload '["Nico"]' lando.log
+aws lambda invoke --function-name core --payload '["Nico"]' core.log

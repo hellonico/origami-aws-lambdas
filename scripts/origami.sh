@@ -1,1 +1,1 @@
-aws lambda invoke --function-name origami --payload '' origami.log
+aws lambda invoke --function-name origami --payload '[""]' origami.log

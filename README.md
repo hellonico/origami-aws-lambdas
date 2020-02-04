@@ -4,19 +4,16 @@ Write a clojure lambda function that can read a set of pictures, and tell, what 
 
 In the best case, the network files should be on S3 ... but it seems we can use the lambda's temporary local storage to re-use the files.
 
+# reference documentation
 
+- https://aws.amazon.com/blogs/compute/clojure/
+- https://docs.aws.amazon.com/general/latest/gr/rande.html
+- https://qiita.com/ekzemplaro/items/b5b42ce90fbe2fb05cd2
 
-https://aws.amazon.com/blogs/compute/clojure/
-
-https://docs.aws.amazon.com/general/latest/gr/rande.html
-
-https://qiita.com/ekzemplaro/items/b5b42ce90fbe2fb05cd2
-
-# install
+# prererequisite software
 
 ```
 brew install awscli
-
 aws lambda help
 ```
 
