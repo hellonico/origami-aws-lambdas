@@ -6,11 +6,9 @@
   :repositories [["vendredi" "https://repository.hellonico.info/repository/hellonico/"]]
   :dependencies [
     [org.clojure/clojure "1.10.0"]
-    [origami-dnn "0.1.5"]
-     ; [origami "4.1.1-6"]
+    [origami-dnn "0.1.7"]
     [cheshire "5.9.0"]
   ]
-  ; :main lando.core
   :profiles {
     :uberjar {:aot :all}
   }

@@ -3,7 +3,7 @@
         [origami-dnn.net.yolo :as yolo]
         [opencv4.core :refer :all]
         [opencv4.utils :as u]
-        [origami-dnn.core :as origami-dnn])
+        [opencv4.dnn.core :as origami-dnn])
     (:gen-class
       :methods [^:static [handler [String] String]]))
 
